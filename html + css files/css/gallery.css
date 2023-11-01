@@ -1,0 +1,211 @@
+body{
+font-family: 'Philosopher', sans-serif;
+background-color: #ffffff;
+  }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+
+#gallery{  
+ padding-top: 50px;
+ padding-bottom: 50px;
+  }
+.gallery_main h1{ 
+ font-size:48px;
+ font-weight: 300;
+ letter-spacing: 0.1em;
+ padding-bottom:20px;
+ color: #000000;
+}
+.gallery_1{ 
+ margin-bottom:30px;
+          }
+
+#gallery .ih-item,
+#gallery .ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#gallery .ih-item a {
+  color: #333;
+}
+#gallery .ih-item a:hover {
+  text-decoration: none;
+}
+#gallery .ih-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#gallery .ih-item.square {
+  position: relative;
+  width: 336px;
+  height: 246px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#gallery .ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#gallery .ih-item.square.effect5.colored .info {
+  background: #1a4a72;
+}
+#gallery .ih-item.square.effect5.colored .info h3 {
+  background: rgba(12, 34, 52, 0.6);
+}
+
+#gallery .ih-item.square.effect5 .info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 0px;
+  padding: 10px;
+  margin: 30px 0 0 0;
+}
+#gallery .ih-item.square.effect5 .info p {
+  font-style: italic;
+  font-size: 0px;
+  position: relative;
+  color: #bbb;
+  padding: 20px 20px 20px;
+  text-align: center;
+}
+
+#gallery .ih-item,
+#gallery .ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#gallery .ih-item a {
+  color: #333;
+}
+#gallery .ih-item a:hover {
+  text-decoration: none;
+}
+#gallery .ih-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#gallery .ih-item.square {
+  position: relative;
+  width: 370px;
+  height: 266px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#gallery .ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#gallery .ih-item.square.effect15 {
+  overflow: hidden;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  perspective: 900px;
+}
+#gallery .ih-item.square.effect15.colored .info {
+  background: #1a4a72;
+}
+
+#gallery .ih-item.square.effect15 .info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 0px;
+  padding: 10px;
+  margin: 30px 0 0 0;
+}
+#gallery .ih-item.square.effect15 .info p {
+  font-style: italic;
+  font-size: 0px;
+  position: relative;
+  color: #bbb;
+  padding: 20px 20px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width : 767px){
+#gallery {
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+#gallery .ih-item.square {
+ width: 100%;
+ height: 100%;
+}
+.gallery_1 {
+ margin-bottom: 10px;
+}
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+#gallery .ih-item.square {
+ width: 100%;
+ height: 100%;
+}
+#gallery {
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.gallery_1 {
+ margin-bottom: 10px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+#gallery .ih-item.square {
+ width: 100%;
+ height: 100%;
+}
+#gallery {
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.gallery_1 {
+ margin-bottom: 10px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
